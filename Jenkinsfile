@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh '''
                 ls
-                echo "hola"
+                echo "hola a todos"
                 '''
             }
         }
@@ -13,14 +13,14 @@ pipeline {
             steps {
                 sh '''
                 pwd
-                echo "hola mundo"
+                echo "hello world"
                 '''
             }
         }
         stage('deployar') {
             steps {
                 sh '''
-                echo "hola mundo"
+                echo "Salut"
                 '''
             }
         }
